@@ -1,0 +1,111 @@
+main.contenedor-news {
+    display: grid;
+    place-items: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    padding: 3%;
+    width: 100%;
+}
+
+main.contenedor-news div.portada div.portada-text{
+    padding: 3%;
+    background-color: rgb(4, 74, 116);
+    color: white;
+}
+
+main.contenedor-news div.portada-text h1 {
+    font-size: 2.5em;
+    line-height: 35px;
+    margin-bottom: 1em;
+}
+
+main.contenedor-news div.portada-text p {
+    font-size: 1.6em;
+    margin-bottom: 1em;
+    color: rgb(150, 172, 245);
+}
+
+main.contenedor-news div.image {
+    width: 100%;
+}
+
+main.contenedor-news div.imagen img {
+    width: 100%;
+}
+
+@media (min-width: 1048px) {
+
+    main.contenedor-news div.portada div.portada-text{
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+    }
+
+    main.contenedor-news div.portada-text h1{ 
+        line-height: 50px;
+    }
+
+    main.contenedor-news div.portada {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main.contenedor-news div.image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    main.contenedor-news div.imagen img {
+        flex-shrink: 0;
+        min-width: 100%;
+        min-height: 100%;
+    }
+}
+
+/*Estilos para los articulos*/
+
+div.noticias-dia {
+    display: grid;
+    margin-top: 2em;
+    grid-template-columns: 1fr;
+}
+
+article.noticias-contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    margin-bottom: 2em;
+}
+
+article.noticias-contenedor .imagenes-article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+article.noticias-contenedor img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+article.noticias-contenedor .text-article h3 {
+    font-size: 1.8em;
+    line-height: 25px;
+    margin-bottom: 1em;
+}
+
+article.noticias-contenedor .text-article p {
+    font-size: 1.2em;
+}
+
+@media (min-width: 1048px) {
+    div.noticias-dia {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

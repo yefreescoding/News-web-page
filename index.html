@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/general.css">
+    <link rel="stylesheet" href="estilos/header.css">
+    <link rel="stylesheet" href="estilos/barra-nabe.css">
+    <link rel="stylesheet" href="estilos/main.css">
+    <title>Posicionamiento | CSS</title>
+</head>
+<body>
+    <!--HEADER of the web site-->
+    <header class="logo-subscription-container">
+        <div class="logo-slogan">
+            <h1 class="logo">BusinessToday</h1>
+            <p class="slogan">Noticias sobre negrocios a un click.</p>
+        </div>
+        <div class="subscribe-section">
+            <div class="instruction">
+                Subscribete a nuestro newsletter, y recibe las noticias en tu mail.
+            </div>
+            <form class="form" action="#">
+                <input class="email-input" type="email" name="email" placeholder="Email">
+                <input class="sub-butt" type="submit" value="Subscribe">
+            </form>
+        </div>
+    </header>
+    <!--Start of the content-->
+    <nav class="barra-contenedor">
+        <ul class="barra-list">
+            <li>Home</li>
+            <li>Mas relevantes</li>
+            <li>Economia</li>
+            <li>Negocios</li>
+            <li>Mercado de Valores</li>
+        </ul>
+        <form class="input-busqueda" action="#">
+            <input type="text" class="search">
+            <input type="submit" value="Buscar" class="buscar">
+        </form>
+    </nav>
+    <main class="contenedor-news">
+        <div class="portada">
+            <div class="portada-text">
+                <h1 class="titulo-new">
+                    “Detengamos a Francia”: 
+                    las refinerías de petróleo bloqueadas 
+                    y los trenes detenidos por las protestas
+                    por la reforma de las pensiones
+                </h1>
+                <p class="info-noticia">
+                    El martes se bloquearon las entregas de 
+                    combustible de las refinerías de petróleo, 
+                    se cancelaron los trenes y se cerraron las 
+                    escuelas en toda Francia, a medida que aumentaban 
+                    las protestas por las reformas previstas en las 
+                    pensiones.
+                </p>
+            </div>
+            <div class="imagen">
+                <img src="imagenes/portda-img.jpeg" alt="personas protestando.">
+            </div>
+        </div>
+        <div class="noticias-dia">
+            <article class="noticias-contenedor">
+                <div class="imagenes-article">
+                    <img src="imagenes/china-photo.webp" alt="">
+                </div>
+                <div class="text-article">
+                    <h3 class="titulo-new">
+                        China dice que las relaciones con EE.UU. han dejado el 
+                        "camino racional" y advierte sobre un conflicto a menos 
+                        que "pisen el freno"
+                    </h3>
+                    <p class="text-article">
+                        BEIJING – El nuevo ministro de Relaciones Exteriores 
+                        de China, Qin Gang, dijo que las relaciones con Estados 
+                        Unidos han dejado un “camino racional” y advirtió sobre 
+                        un conflicto si Washington no “pisa el freno”.
+                    </p>
+                </div>
+            </article>
+            <article class="noticias-contenedor">
+                <div class="imagenes-article">
+                    <img src="imagenes/meta.webp" alt="">
+                </div>
+                <div class="text-article">
+                    <h3 class="titulo-new">
+                        Meta planea miles de recortes más después de 
+                        despidos generalizados, según informe.
+                    </h3>
+                    <p class="text-article">
+                        Los recortes de empleo podrían comenzar esta semana y representar
+                        una ronda adicional de despidos, que se suman al 13%
+                        de trabajadores del Meta que fueron despedidos como parte de un gran
+                        plan de reducción de costos anunciado en noviembre.
+                    </p>
+                </div>
+            </article>
+            <article class="noticias-contenedor">
+                <div class="imagenes-article">
+                    <img src="imagenes/openai.jpg" alt="">
+                </div>
+                <div class="text-article">
+                    <h3 class="titulo-new">
+                        Salesforce sigue a Microsoft en el lanzamiento 
+                        de A.I. herramientas para vendedores con ayuda 
+                        de OpenAI.
+                    </h3>
+                    <p class="text-article">
+                        La compañía dijo el martes que lanzará un software 
+                        que incorporará inteligencia artificial para ayudar 
+                        a los vendedores, agentes de servicio al cliente y 
+                        especialistas en marketing a hacer su trabajo.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

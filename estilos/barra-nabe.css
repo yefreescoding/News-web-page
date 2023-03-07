@@ -1,0 +1,84 @@
+nav.barra-contenedor {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+    background-color: #111;
+    color: white;
+}
+
+nav.barra-contenedor ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+
+    list-style-type: none;
+    flex-wrap: wrap;
+
+    border-bottom: 1px solid rgba(179, 179, 179, 0.582);
+}
+
+nav.barra-contenedor ul li {
+    margin: 0.5em 0.9em;
+    font-size: 1.7em;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+nav.barra-contenedor ul li:hover {
+    color: rgb(121, 186, 248);
+    transform: scale(1.1, 1.1);
+}
+
+form.input-busqueda {
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row;
+    gap: 1em;
+    width: 100%;
+}
+
+form input.search {
+    flex: 2;
+    font-size: 1.5em;
+    padding: 1%;
+    border-radius: 8px;
+    border: 1px rgb(47, 128, 250) solid;
+}
+
+form input.buscar {
+    flex: 1;
+    width: 100%;
+    padding: 2%;
+    border-radius: 8px;
+    background-color: rgb(24, 123, 216);
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    
+    nav.barra-contenedor {
+        flex-flow: row;
+    }
+
+    nav.barra-contenedor ul {
+        flex: 2;
+        border: none;
+        border-right: 1px solid rgba(179, 179, 179, 0.582);
+    }
+
+    form.input-busqueda {
+        flex: 1;
+        padding: 1%;
+    }
+
+
+}

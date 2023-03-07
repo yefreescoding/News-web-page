@@ -1,0 +1,105 @@
+header.logo-subscription-container {
+    background-color: rgba(173, 216, 230, 0.555);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+    padding: 0.5em;
+}
+
+div.logo-slogan, div.subscribe-section  {
+    display: flex;
+    flex-flow: column;
+    gap: 0.5em;
+    width: 100%;
+}
+
+div.logo-slogan h1.logo {
+    color: rgb(4, 93, 177);
+    font-size: 3.5em;
+}
+
+div.logo-slogan p.slogan {
+    color: rgba(4, 128, 245, 0.815);
+    font-weight: bold;
+    font-size: 1.5em;
+    align-self: flex-end;
+}
+
+
+
+div.subscribe-section {
+    background-color: rgba(117, 200, 248, 0.8);
+    display: flex;
+    flex-flow: column;
+    margin: 1em;
+    padding: 0.8%;
+    width: 100%;
+}
+
+div.instruction {
+    font-weight: bold;
+    font-size: 1.3em;
+    color: rgb(3, 72, 138);
+    text-align: center;
+}
+
+
+form.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8em;
+    margin-bottom: 0.5em;
+}
+
+form.form input.email-input{
+    flex: 2;
+    height: 100%;
+    font-size: 1.1em;
+    padding: 5px;
+    padding-left: 16px;
+    border: none;
+    border-radius: 8px;
+}
+
+form.form input.sub-butt {
+    font-size: 1.1em;
+    padding: 5px 10px;
+    background-color: rgb(51, 120, 248);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-right: 0.5em;
+    cursor: pointer;
+}
+
+
+@media (min-width:768px) {
+    /*
+    body {
+        background-color: black;
+    }*/
+    html {
+        font-size: 95%;
+    }
+    header.logo-subscription-container {
+        display: flex;
+        flex-flow: row;
+        gap: 1em;
+        padding: 0.5em;
+    }
+    div.logo-slogan h1.logo {
+        font-size: 3.5em;
+    }
+
+    div.logo-slogan p.slogan, div.instruction {
+        align-self: flex-start;
+    }
+
+    div.instruction {
+        text-align: start;
+        margin: 0.4em;
+    }
+}
