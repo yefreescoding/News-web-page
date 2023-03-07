@@ -4,59 +4,52 @@ Simple overview of use/purpose.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Esta es una pagina web para demostrar el uso de responsive design y el uso de FlexBox asi como de Flex Grid.
 
-## Getting Started
+# Frontend Mentor - Interactive card details form solution
 
-### Dependencies
+This is a solution to the [Interactive card details form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+## Table of contents
 
-### Installing
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-### Executing program
+## Overview
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+### Screenshot
 
-## Help
+![](screenshots/desktop.png)
+![](screenshots/mobile.png)
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+### Links
 
-## Authors
+- Live Site URL: (https://yefreescoding.github.io/News-web-page/)
 
-Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+## My process
 
-## Version History
+### Built with
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
+- Semantic HTML5 markup
+- CSS
+- Flexbox
+- CSS Grid
+- Mobile First Design
 
-## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+### What I learned
+I learned the fundamentals for the responsive design, FlexBox and CSS Grid.
 
-## Acknowledgments
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+## Author
+
+- Website - (https://github.com/yefreescoding)
+- Frontend Mentor - (https://www.frontendmentor.io/profile/yefreescoding)
+- Twitter - (https://twitter.com/YefreeCodes)
