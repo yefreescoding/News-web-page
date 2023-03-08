@@ -1,14 +1,10 @@
 # Project Title
 
-Simple overview of use/purpose.
+Diseño web responsive.
 
 ## Description
 
 Esta es una pagina web para demostrar el uso de responsive design y el uso de FlexBox asi como de Flex Grid.
-
-# Frontend Mentor - Interactive card details form solution
-
-This is a solution to the [Interactive card details form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
